@@ -1,0 +1,2 @@
+# AWSgenAI-Bedrock
+bedrock apps
