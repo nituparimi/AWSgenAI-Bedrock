@@ -4,7 +4,7 @@ import sys
 import boto3
 import streamlit as st
 
-## We will be suing Titan Embeddings Model To generate Embedding
+## We will be using aws Titan Embeddings Model To generate Embedding
 
 from langchain_community.embeddings import BedrockEmbeddings
 from langchain.llms.bedrock import Bedrock
@@ -98,7 +98,7 @@ def get_response_llm(llm,vectorstore_faiss,query):
 def main():
     st.set_page_config("Chat PDF")
     
-    st.header("Chat with PDF using AWS Bedrock💁")
+    st.header("Chat with PDF using AWS Bedroc :)")
 
     user_question = st.text_input("Ask a Question from the PDF Files")
 
