@@ -98,7 +98,7 @@ def get_response_llm(llm,vectorstore_faiss,query):
 def main():
     st.set_page_config("Chat PDF")
     
-    st.header("Chat with PDF using AWS Bedroc :)")
+    st.header("Chat with PDF using AWS Bedrock -np")
 
     user_question = st.text_input("Ask a Question from the PDF Files")
 
